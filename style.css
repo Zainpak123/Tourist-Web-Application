@@ -1,0 +1,286 @@
+
+#title{
+    background-image: url("images/1.avif");
+    height: 100%;
+    background-size: cover;
+}
+
+.navbar-brand.nav-title{
+   font-size: 2.5rem;
+}
+
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    margin-left: 75px;
+    left: 55%;
+    font-size: 20px;
+}
+
+.nav-item:hover{
+    color: white;
+}
+
+.row h1{
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    margin-top: 10%;
+}
+
+.row h4{
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+}
+
+.row .btn-1{
+    text-align: center;
+    width: 250px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 2%;
+    text-decoration: none;
+    background-color: rgb(223, 122, 14);
+    color: white;
+    border: none;
+    margin-bottom: 10%;
+}
+
+.row .btn-2{
+    position: relative;
+    left: 10%;
+    width: 200px;
+    height: 70px;
+    color: gray;
+    font-size: 25px;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-top: 1%;
+}
+.row .btn-2:hover{
+    background-color: rgb(243, 232, 232);
+}
+
+.row hr{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.post-container{
+    background-color: rgb(246, 246, 246);
+    margin: 0;
+    padding: 20px;
+
+}
+
+#posts .post-container h3{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 4%;
+}
+.center-line{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    padding: 0 150px;
+    cursor: pointer;
+}
+
+.img1{
+    background-image: url("images/2.jpg");
+    float: left;
+    background-size: cover;
+}
+
+.img2{
+    background-image: url("images/3.jpg");
+    float: right;
+    background-size: cover;
+}
+
+.img{
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+    transition: transform .3s;
+}
+
+.img:hover{
+    transform: scale(1.1);
+}
+
+.photography{
+    background-color: rgb(116, 58, 116);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.adventure{
+    background-color: rgb(192, 113, 11);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.img h1{
+    color: white;
+    padding-top: 80px;
+    margin-left: 20px;
+}
+
+.img p{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.zain-img{
+    border-radius: 100%;
+    width: 10%;
+    margin-left: 20px;
+}
+em{
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.em2{
+    margin-left: 40%;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust the gap between items */
+    margin-top: 3%;
+    padding: 0 180px;
+    cursor: pointer;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 450px; /* Adjust height as needed */
+    transition: transform .3s;
+    box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2);
+    
+}
+
+.grid-item:hover{
+    transform: scale(1.1);
+}
+.image-section {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.text-section {
+    background: #f0f0f0; 
+    padding: 20px; 
+    box-sizing: border-box;
+    border-radius: 0 0 5px 5px;
+}
+
+.dmg{
+    border-radius: 100%;
+    width: 10%;
+}
+.dmge{
+    color: black;
+    margin-left: 2%;
+}
+
+.dmge1{
+    margin-left: 90px;
+    color: black;
+}
+
+.dimg1 {
+    background-image: url("images/2.jpg");
+}
+
+.dimg2 {
+    background-image: url("images/3.jpg");
+}
+
+.dimg3 {
+    background-image: url("images/4.jfif");
+}
+
+.dimg4 {
+    background-image: url("images/5.webp");
+}
+
+.dimg5 {
+    background-image: url("images/6.jpg");
+}
+
+.dimg6 {
+    background-image: url("images/7.jpg");
+}
+
+.fcontainer{
+    background-image: url("images/blur.avif");
+    background-size: cover;
+    margin-top: 5%;
+}
+
+.fcontainer h1{
+    text-align: center;
+    padding-top: 10%;
+    color: rgb(138, 120, 120);
+}
+input{
+    width: 600px;
+    height: 70px;
+    border: none;
+    position: relative;
+    left: 30%;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.b{
+    background-color: rgb(171, 165, 165);
+    color: white;
+    position: relative;
+    left: 29%;
+    border: none;
+    width: 200px;
+    height: 70px;
+    border-radius: 0 0 5px 5px;
+    
+
+}
+
+footer {
+    padding: 40px;
+    border: none;
+    background-image: url("images/blur.avif");
+    background-size: cover;
+    
+}
+
+footer .fb{
+    font-size: 30px;
+    color: white;
+    margin-left: 4%;
+}
